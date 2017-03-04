@@ -1,0 +1,15 @@
+ 5.1. if (A is true AND B is true) OR (A is false AND B is true) THEN color="blue"
+  execute 
+    5.2. if (A is true AND B is false) OR (A is NOT true AND A is false) THEN color="green"
+    execute if a true or false b.false will print "green"
+    5.3. if (A is true AND B is false OR A is false) OR (A is either true or false) THEN color="yellow"
+ execute if a true or false b.false will print "green" but its like 5.2  and print "green" 
+    5.4. if (false AND true) OR (false OR true) THEN color="white"
+    Without variables A OR B
+    
+    
+       A B 
+       T T blue white  yellow
+       F T blue ,green ,white yellow
+       T F green  white  yellow
+       F F green  white yellow

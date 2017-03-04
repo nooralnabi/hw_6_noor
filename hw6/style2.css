@@ -1,0 +1,28 @@
+#p2{
+    color: red;
+    
+}
+#or {
+     list-style-image: url('https://cdn1.iconfinder.com/data/icons/fruits-and-vegetables-12/32/orange-fruit-lemon-lime-citrus-healthy-fruits-128.png');
+}
+#ap {
+  list-style-image: url('http://www.uidownload.com/files/245/584/999/apple-fruit-icon.png');  
+}
+#st
+{
+    list-style-image: url('http://www.desktop-icon.com/stock-icons/desktop-buffet/strawberry-icon.gif');
+
+}
+#bl 
+{
+    list-style-image: url('http://findicons.com/files/icons/1187/pickin_time/128/blueberries.png');
+   
+}
+#gr
+{
+    list-style-image: url('https://cdn1.iconfinder.com/data/icons/thanksgiving-2/40/grape-128.png');
+    
+}
+#p2 , #p1 {
+      display: inline;
+}

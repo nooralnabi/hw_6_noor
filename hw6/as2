@@ -1,0 +1,23 @@
+ if A is true OR A is false OR B is true OR C is true THEN color="blue"
+ execute a.true or false b. true . c.true
+ 
+    else if A is true OR B is false OR C is false THEN color="red"
+    its not execute because IF A IS true will execute "blue"
+
+    
+    else if A is true OR B is false OR C is true THEN color="green"
+    its not execute because IF A IS true will execute "blue"
+    else color="yellow"
+    its not execute because IF A IS true or false  will execute "blue"
+    
+    
+    
+       A B C
+       T T T blue
+       F T T blue
+       T F T blue
+       F F T blue
+       T T F blue
+       F T F blue
+       T F F blue
+       F F F blue

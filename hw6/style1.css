@@ -1,0 +1,22 @@
+table, tr ,td ,th {
+     border: 1px solid black ;
+  
+   
+}
+  thead{
+       font-weight:bold;
+     
+  }
+  a:link , a:visited {
+   text-decoration: none;  
+    
+    font-weight:bold;
+    padding:2px 8px;
+    border-style: solid
+  }
+li  {
+    list-style-image: url('https://fax.pdf24.org/static/img/yes.png');
+}
+p{
+    font-style: italic;
+}

@@ -1,0 +1,26 @@
+
+    if A is true AND B is true AND C is true THEN color="blue"
+    
+    execute a . true b. true c. true print blue
+
+    else if A is true AND B is false AND C is false THEN color="red"
+     execute a . true b. false c. false print red
+    else if A is true AND A is false THEN color="orange"
+      its not execute 
+    else if A is true AND B is false AND C is true THEN color="green"
+     execute a . true b. false c. true print green
+    else color="yellow"
+     execute a . false b. true c. true print yellow
+      execute a . false b. false c. true print  yellow
+       execute a . false b. true c. false print  yellow
+       
+       or 
+       A B C
+       T T T blue
+       F T T yellow
+       T F T green
+       F F T yellow
+       T T F 
+       F T F yellow
+       T F F red
+       F F F yellow

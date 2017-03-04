@@ -1,0 +1,14 @@
++8. Create an alias for a linux commmand, that uses a pipe to display the number of linux commands you executed, along with the date and time.
+ +Answer:
+export HISTTIMEFORMAT='  %t %F '| history
+or 
+
+export HISTTIMEFORMAT='  %t %F '
+history
+
+alias nooralnabi="export HISTTIMEFORMAT='  %t %F '| history
+
+
++9. Question 8 prints the date/time and the command. Create a command that reverses the order (it takes this output and displays the command and THEN the date/time).
+ +Answer:
+history | while read line ; do arr=(${line// / }); echo "${arr[3]} ${arr[2]} ${arr[1]}" ;
